@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { BiFontSize } from 'react-icons/bi';
 
 const Hero = () => {
     return (
@@ -12,7 +13,7 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.2 }}
-                    className="text-cyan-400 tracking-[0.2em] uppercase text-sm font-semibold mb-4"
+                    className="text-cyan-400 tracking-[0.2em] uppercase text-2xl font-semibold mb-4"
                 >
                     Full Stack Developer
                 </motion.p>
@@ -21,7 +22,7 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.3 }}
-                    className="text-5xl md:text-8xl font-bold bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent mb-6 whitespace-tight"
+                    className="text-4xl md:text-7xl font-bold bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent mb-6 whitespace-tight"
                 >
                     Building Digital <br className="hidden md:block" /> Experiences.
                 </motion.h1>
