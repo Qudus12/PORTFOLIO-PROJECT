@@ -24,12 +24,12 @@ const Contact = () => {
                         className="flex flex-col md:flex-row gap-12 justify-center items-center mb-16"
                     >
                         <a href="mailto:email@example.com" className="flex items-center gap-3 text-xl text-gray-300 hover:text-cyan-400 transition-colors">
-                            <FaEnvelope /> email@example.com
+                            <FaEnvelope /> salamiqudus123@gmail.com
                         </a>
                         <div className="flex gap-6">
-                            <a href="#" className="text-3xl text-gray-400 hover:text-white transition-colors"><FaGithub /></a>
-                            <a href="#" className="text-3xl text-gray-400 hover:text-blue-500 transition-colors"><FaLinkedin /></a>
-                            <a href="#" className="text-3xl text-gray-400 hover:text-blue-400 transition-colors"><FaTwitter /></a>
+                            <a href="https://github.com/Qudus12" className="text-3xl text-gray-400 hover:text-white transition-colors"><FaGithub /></a>
+                            <a href="https://linkedin.com/in/qudus-salami" className="text-3xl text-gray-400 hover:text-blue-500 transition-colors"><FaLinkedin /></a>
+                            <a href="https://X.com/Salamiqudus8" className="text-3xl text-gray-400 hover:text-blue-400 transition-colors"><FaTwitter /></a>
                         </div>
                     </motion.div>
 

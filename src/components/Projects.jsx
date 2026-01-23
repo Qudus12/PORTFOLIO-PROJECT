@@ -5,9 +5,9 @@ const projects = [
     {
         title: 'E-Commerce Platform',
         description: 'A full-stack e-commerce solution with cart functionality, payment gateway integration, and admin dashboard.',
-        tags: ['Next.js', 'Stripe', 'Tailwind', 'MongoDB'],
-        github: '#',
-        live: '#',
+        tags: ['HTML', 'CSS', 'Tailwind', 'Javascript'],
+        github: 'https://github.com/Qudus12/SweetHomes.git',
+        live: 'https://sweet-homes-pink.vercel.app/',
         image: null, // Placeholder
     },
     {
