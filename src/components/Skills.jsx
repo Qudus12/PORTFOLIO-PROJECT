@@ -9,8 +9,8 @@ const skills = [
     { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' },
     { name: 'TailwindCSS', icon: SiTailwindcss, color: '#06B6D4' },
     { name: 'JavaScript', icon: SiJavascript, color: '#F7DF1E' },
-    { name: 'HTML5', icon: FaHtml5, color: '#E34F26' },
-    { name: 'CSS3', icon: FaCss3Alt, color: '#1572B6' },
+    { name: 'HTML', icon: FaHtml5, color: '#E34F26' },
+    { name: 'CSS', icon: FaCss3Alt, color: '#1572B6' },
     { name: 'Git', icon: FaGitAlt, color: '#F05032' },
     { name: 'Database', icon: FaDatabase, color: '#4DB33D' }, // Generic DB icon
 ];

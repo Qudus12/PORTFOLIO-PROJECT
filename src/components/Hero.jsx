@@ -35,7 +35,7 @@ const Hero = () => {
                     className="mb-8 md:mb-12 flex justify-center"
                 >
                     <span className="px-6 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-md text-xs sm:text-sm font-medium tracking-wide text-cyan-300 shadow-lg shadow-cyan-500/10 whitespace-nowrap">
-                       HI👋, Available for new projects
+                        HI👋, Available for new projects
                     </span>
                 </motion.div>
 
@@ -46,11 +46,11 @@ const Hero = () => {
                     className="text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-black tracking-tight mb-8"
                 >
                     <span className="bg-clip-text text-transparent bg-gradient-to-b from-white to-white/60">
-                        Crafting
+                        Architecting
                     </span>
                     <br />
                     <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-cyan-400 to-purple-400 animate-gradient-x bg-[length:200%_auto]">
-                        Digital Magic.
+                        Digital Excellence.
                     </span>
                 </motion.h1>
 
@@ -60,9 +60,9 @@ const Hero = () => {
                     transition={{ duration: 0.8, delay: 0.4 }}
                     className="text-gray-400 text-base sm:text-lg md:text-2xl max-w-2xl mx-auto mb-12 leading-relaxed font-light px-2"
                 >
-                    I'm a Full Stack Developer transforming complex requirements into <br className="hidden md:block" />
-                    <span className="text-white font-normal hover:text-cyan-300 active:text-cyan-300 transition-colors cursor-default">stunning interfaces</span> and
-                    <span className="text-white font-normal hover:text-purple-300 active:text-purple-300 transition-colors cursor-default"> robust architectures</span>.
+                    I'm a Full Stack Developer delivering <br className="hidden md:block" />
+                    <span className="text-white font-normal hover:text-cyan-300 active:text-cyan-300 transition-colors cursor-default">high-performance solutions</span> and
+                    <span className="text-white font-normal hover:text-purple-300 active:text-purple-300 transition-colors cursor-default"> scalable business value</span>.
                 </motion.p>
 
                 <motion.div
@@ -76,8 +76,8 @@ const Hero = () => {
                         <span className="relative">Explore My Work</span>
                     </a>
                     <div className="flex gap-6 items-center">
-                        <a href="#" className="text-gray-400 hover:text-white transition-colors text-3xl hover:scale-110 transform duration-200"><FaGithub /></a>
-                        <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors text-3xl hover:scale-110 transform duration-200"><FaLinkedin /></a>
+                        <a href="https://github.com/Qudus12" className="text-gray-400 hover:text-white transition-colors text-3xl hover:scale-110 transform duration-200"><FaGithub /></a>
+                        <a href="https://linkedin.com/in/qudus-salami" className="text-gray-400 hover:text-blue-400 transition-colors text-3xl hover:scale-110 transform duration-200"><FaLinkedin /></a>
                     </div>
                 </motion.div>
             </div>

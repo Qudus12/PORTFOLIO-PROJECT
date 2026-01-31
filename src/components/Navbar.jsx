@@ -3,6 +3,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { HiMenuAlt3, HiX } from 'react-icons/hi';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
+import Logo from './Logo';
+
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -51,9 +53,7 @@ const Navbar = () => {
     return (
         <nav className="fixed top-0 left-0 w-full z-50 bg-black/50 backdrop-blur-lg border-b border-white/10">
             <div className="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center relative z-50">
-                <a href="#" className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
-                    SweetHUB.
-                </a>
+                <Logo />
 
                 {/* Desktop Menu */}
                 <div className="hidden md:flex space-x-8">
